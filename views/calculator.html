@@ -1,0 +1,12 @@
+<html>
+<head>
+  <title>Api calculator</title>
+</head>
+<body>
+  <form action="/calculate" method="post">
+    Expressions:<br>
+    <input type="text" name="expr" value="{{ .Expr }}" placeholder="2 + 3 * -1"> = {{ .Result }}<br>
+    <input type="submit" value="Calculate">
+  </form> 
+</body>
+</html>
